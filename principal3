@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angeles y Demonio Argentina</title>
+	<meta charset="utf-8"/>
+	<link href="estilos.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"/>
+</head>
+<body>
+<section id="contenedor">
+	<header>
+		<div id="marca">
+			<img src="imagenes/banner.jpg"></div>
+        <div id="menu">
+            <ul class="botonerav">
+		<li> <a href="index.html"> Inicio </a></li>
+		<li> <a href="pastordelcaucaso.html"> Acerca de  </a></li>
+		<li> <a href="Extensión.html"> Contacto </a></li>
+	</ul></div>
+	</header>
+	<section id="contenido">
+		<audio controls autoplay loop>
+	    	<source src="audios/tema.mp3">
+	    		<p>Tu navegador no soporta HTML5</p>
+	    </audio>
+		<p>Pastor del Cáucaso</p>
+		<p><i><u>Origen:</i></u> Rusia</p>
+<p><i><u>Apariencia general:</i></u> Los perros de pastor del Cáucaso son de tamaño superior al promedio y también de gran tamaño; su constitución es robusta hasta tosca. Por naturaleza, atacan a los extraños y desconfían de éstos. A estas características hay que añadir la resistencia, la ausencia de exigencias y la facilidad de adaptación a condiciones térmicas y climáticas variadas, lo que permite su utilización en casi todas las regiones de Rusia.</p>
+<p><i><u>Temperamento y comportamiento:</i></u> Es un perro que demuestra un gran vigor; es fuerte, equilibrado y tranquilo. Las reacciones de defensa que se manifiestan en forma activa, están bien desarrolladas. La acometividad y la desconfianza hacia los extraños son rasgos característicos.</p>
+	</section>
+</section>
+</body>
+</html>
