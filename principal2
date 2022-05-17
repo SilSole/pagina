@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angeles y Demonio Argentina</title>
+	<meta charset="utf-8"/>
+	<link href="estilos.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"/>
+	<link rel="icon" type="image/jpg" href="imagenes/logo.jpg">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0"/>
+	<meta name="description"  content="se encuentra cachorros, sementales o patrillos de la raza Pastor del Cáucaso"/>
+	<meta name="keywords" content="Pastor del Cáucaso, Cachorro pastor del caucaso, pastor del caucaso en argentina, Angeles y Demonio">
+</head>
+<body>
+<section id="contenedor">
+	<header>
+		<div id="marca">
+			<img src="imagenes/banner.jpg"> 
+		</div>
+        <div id="menu">
+            <ul class="botonerav">
+		<li> <a href="index.html"> Inicio </a></li>
+		<li> <a href="pastordelcaucaso.html"> Acerca de  </a></li>
+		<li> <a href="Extensión.html"> Contacto </a></li>
+	        </ul>
+        </div>
+	</header>
+	<section id="contenido">
+	<h1>Criadero de la raza de perros </h1>
+	<h2>Pastor del Cáucaso</h2>
+		<nav class="navegacion">
+		<ul class="menu2"> 
+		<li> <a href="#"> Historia de Criadero </a></li>
+		<li> <a href="#">Madres</a></li>
+		<li> <a href="#">Padres</a></li>
+		<li> <a href="#">Servicios</a>
+             <ul class="submenu">
+             	<li><a href="#">Semental</a></li>
+                <li><a href="#">Cachorro</a></li>
+	         </ul>
+	    </li>
+	</ul>
+	    </nav>
+	    <iframe width="250" height="100" src="https://www.youtube.com/embed/hIyWlYQgNVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
+	    <iframe width="250" height="100" src="https://www.youtube.com/embed/E1K2uPL7euY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</section>
+</section>
+</body>
+</html>
