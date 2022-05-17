@@ -1,0 +1,364 @@
+body {
+	background-image:url(imagenes/perro.jpg);
+}
+#contenedor{
+	width: 876px;
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px; 
+}
+header{
+	width: 876px;
+	height: 154px;
+	-moz-box-shadow: 0px 9px 6px #000;
+    -webkit-box-shadow: 0px 9px 6px #000;
+    box-shadow: 0px 9px 6px #000;
+}
+#marca{
+    width: 719px;
+    height: 154px;
+    float: left; 
+}
+#menu{
+	width: 157px;
+	height: 154px;
+	float: right;
+    background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#3600BA), to(#FF4E28));
+}
+#contenido{
+	width: 876px;
+	height: 630px;
+	background-image:url(imagenes/foto.jpg);
+	white-space: normal;
+	line-height: 30px;
+	margin-top: 15px;
+}
+h1 {
+	color: #733021;
+	font-family: Algerian; arial; calibri;
+	text-align: center;
+	font-size: xx-large;
+	text-shadow:3px 4px 2px #000;
+	margin-top: 15px; 
+}
+h2 {
+	color: #733021;
+	font-family: Algerian; arial; calibri;
+	text-align: center;
+	font-size: xx-large;
+	text-decoration: underline;
+	font-family: 'Pacifico', cursive;
+	margin-top: 15px;
+}
+.navegacion ul{
+	margin: 0;
+	padding: 0;
+	list-style: nome;
+}
+.navegacion li{
+	display: inline;
+}
+.navegacion {
+	width: 869px;
+	height: 10px auto ;
+	background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#3600BA), to(#FF4E28));
+	margin-bottom: 5px;
+	display: inline-block;
+	color: #FFBF00;
+	text-decoration: none;
+	text-align: center;
+	border: 1px #FF4000 solid;
+	line-height: 50px;
+	border:solid 4px #e036e0;
+	border-top-left-radius:47px;
+    border-top-right-radius:47px; 
+    border-bottom-left-radius:47px;
+    border-bottom-right-radius:47px;
+    -moz-box-shadow: 0px 9px 6px #000000;
+    -webkit-box-shadow: 0px 9px 6px #000000;
+    box-shadow: 0px 9px 6px #000000;
+    margin-top: 10px;
+}
+ul.navegacion li a:hover{
+	background-color: #000;
+}
+.menu2>li{
+	position: relative;
+	display: inline-block;
+
+}
+.menu2>li>a{
+	display: inline-block;
+	padding: 1px 68px;
+	color: #fff;
+	font-family: Arial, Verdana, Tahoma;
+	text-decoration: none;
+	color: #fff;
+	font-family: arial, Verdana, Tahoma;
+}
+.menu2 >li a:hover{
+    background-color: #000;
+    display: block;
+    padding: 1px 68px;
+}
+.submenu{
+	position: absolute;
+	background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#3600BA), to(#FF4E28));
+	width: 100%;
+	display: none;
+}
+.submenu li a{
+	display: block;
+	padding: 1px;
+	color: #fff;
+	font-family: arial, Verdana, Tahoma;
+	text-decoration: none;
+}
+.menu2 li:hover .submenu{
+	display: block;
+}
+ul.botonerav li{
+	display: inline;
+}
+ul.botonerav {
+	margin: 0;
+	padding: 0;
+	list-style-type: nome;
+}
+ul.botonerav li a{
+	width: 157px;
+	height: 46px;
+	background-color: #F5A9E1;
+	margin-bottom: 5px;
+	display: block;
+	color: #BF00FF;
+	text-decoration: none;
+	text-align: center;
+	border: 1px #6A0888 solid;
+	line-height: 50px;
+}
+ul.botonerav li a:hover{
+	background-color: #FE2E9A;
+}
+h3{
+	color: #733021;
+	font-family: arial; calibri;Algerian;
+	text-align: center;
+	font-size: xx-large;
+	text-decoration: underline;
+	margin-top: 15px;
+}
+h4{
+	color: #733021;
+	font-family: arial; calibri;Algerian;
+	text-align: center;
+	font-size: xx-large;
+	text-decoration: underline;
+}
+h5{
+	color: #733021;
+	font-family: Algerian; arial; calibri;
+	text-align: center;
+	font-size: xx-large;
+	text-decoration: underline; 
+}
+p{
+	color: #000;
+	text-align: center;
+	font-size: 30px;
+	text-shadow:0px 3px 8px #faf7f7;
+    font-family: 'Pacifico', cursive;
+    font-weight: 300px;
+}
+#video, video{
+	width: 250px;
+	height:150px;
+}
+@media handheld, screen and (min-width: 600px) and (max-width: 1023px) {
+#contenedor{
+	width: 100%;
+    height: auto; 
+}
+header{
+	width: 90%;
+	height: auto;
+}
+#marca{
+    width: 70%;
+    height: auto;
+    float: none;
+    margin-right:auto;
+    margin-left: auto; 
+    top: 2.5em; 
+}
+
+#marca img{
+	width: 90%;
+	height: auto;
+}
+#menu{
+	width: 20%;
+	margin-right: auto;
+    margin-left: auto;
+    float: right;
+    margin-top: 5%
+}
+ul.botonerav li a{
+	width: 100%;
+	height: auto;
+	float: none;
+	margin-right: auto;
+    margin-left: auto;
+	margin-bottom: 5px;
+	line-height: 45px;
+}
+
+#contenido{
+	width: 580px;
+	height: 634px;
+	float: none;
+	margin-right: auto;
+    margin-left: auto;
+    background-position: center;
+}
+
+p{
+	font-size: 20px;
+}
+.navegacion {
+	width: 580px;
+	float: center;
+	height: 50px auto;
+	white-space: nowrap;
+
+}
+.menu2>li>a{
+	padding: 1px 30px;
+}
+.menu2 >li a:hover{
+      padding: 1px 30px;
+}
+#video, video{
+	width: 200px;
+	height: 120px;
+}
+#iframe, iframe {
+	width: 110px;
+	height: 70px;
+}
+}
+@media handheld, screen and (max-width: 599px){
+
+#contenedor{
+	width: 90%;
+    height: auto; 
+   
+}
+header{
+	width: 100%;
+	height: auto;
+}
+#marca{
+    width: 50%;
+    height: auto;
+    float: left; 
+    top: 2.5em; 
+}
+#marca img{
+	width: 100%;
+	height: auto;
+}
+h2 {
+	text-align: left;
+}
+#menu{
+	width: 157px;
+	height: 154px;
+	float: right;
+	
+}
+
+#contenido{
+	width: 100%;
+	height: 620px;
+	background-position: center;
+}
+p{
+	font-size: 100%;
+}
+.menu2>li{
+	display: block;
+    width: 157px;
+	height: 46px;
+    
+}
+.menu2>li>a{
+	display: block;
+	width: 157px;
+	height: 46px;
+	
+	margin: 0;
+	padding: 0;
+	list-style-type: nome;
+	
+}
+.menu2 >li a:hover{
+  
+}
+.submenu{
+	position: absolute;
+	width: 100%;
+	display: none;
+}
+.submenu li a{
+	display: block;
+	width: 157px;
+	height: 46px;
+	padding: 1px;
+}
+.navegacion ul li{
+	display: block;
+}
+.navegacion {
+	width: 100%;
+    float:none;
+    display: block;
+}
+.navegacion ul li a {
+	display: block;
+	padding: 2%;
+	width: 94%;
+	margin-right: 0em;
+	margin-bottom: 0.5em;
+	text-align: center;
+
+}
+	
+#video, video{
+	width: 210px;
+	height: 130px;
+}
+#iframe, iframe {
+	width: 110px;
+	height: 70px;
+}
+#audio, audio{
+	width: 220px;
+	height: 50px;
+}
+h3{
+	width: 100%;
+	height: auto;
+	float: none;
+	font-size: 20px;
+
+}
+h4{
+	width: 100%;
+	height: auto;
+	float: none;
+    font-size: 20px;
+
+}
+}
